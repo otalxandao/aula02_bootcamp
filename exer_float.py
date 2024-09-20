@@ -1,3 +1,5 @@
+import math
+
 # #### Números de Ponto Flutuante (`float`)
 
 
@@ -31,5 +33,5 @@ print(f"O valor em farehain é {conversao_em_farehain}")
 # area = pi*r²
 
 valor_raio = float(input("Coloque o valor do raio: "))
-area_calculo = (3.14*(valor_raio**2))
-print(f"O valor da área com base no raio é {area_calculo} m²")
+area_calculo = (math.pi*(valor_raio**2))
+print(f"O valor da área com base no raio é {area_calculo:.2f} m²")
